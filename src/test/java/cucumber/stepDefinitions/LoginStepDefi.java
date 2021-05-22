@@ -47,6 +47,8 @@ public class LoginStepDefi {
 		String websiteTitile = driver.getTitle();
 		logger.info("Website title is: " + websiteTitile);
 		assertEquals(websiteTitile, "OrangeHRM");
+		
+//		logger.info("ekky");
 		throw new PendingException();
 	}
 
